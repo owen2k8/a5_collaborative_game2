@@ -15,7 +15,8 @@ namespace MohawkGame2D
         /// </summary>
         public void Setup()
         {
-
+            Window.SetTitle("platformer game");
+            Window.SetSize(1920, 1080);
         }
 
         /// <summary>
